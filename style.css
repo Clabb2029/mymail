@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    background-color: #f5f6fA;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Open Sans';
+}
+
+.counter,
+.card,
+.newMessage {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 2px;
+    border: 1px solid #DADADA;
+    border-radius: 10px;
+    width: 50%;
+}
+
+.newMessage {
+    flex-direction: column;
+    padding: 10px 0
+}
+
+#textarea,
+#namearea {
+    border: 1px solid #DADADA;
+    width: 80%;
+    margin-bottom: 5px;
+}
+
+#addbutton {
+    color: #9cd3ed;
+    border: 1px solid #9cd3ed;
+    border-radius: 5px;
+    background-color: white;
+    margin-left: 10px;
+}
+
+#addbutton:hover {
+    cursor: pointer;
+}
+
+.avatar {
+    border-radius: 50%;
+    height: 60px;
+    margin: 0 20px;
+}
+
+.name {
+    font-size: 14px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.message {
+    width: 100%;
+
+}
+
+.text {
+    font-size: 14px;
+}
+
+.trash {
+    height: 15px;
+    margin: 0 10px;
+}
+
+.trash:hover {
+    cursor: pointer;
+    height: 16px
+}
